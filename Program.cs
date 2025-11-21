@@ -22,10 +22,10 @@ builder.Configuration
 builder.Services.AddControllers();
 
 // ---------- Banco de Dados ----------
+// ---------- Banco de Dados ----------
 var cs =
-    builder.Configuration["DATABASE_URL"] ??
-    builder.Configuration.GetConnectionString("Default") ??
-    throw new InvalidOperationException("Não há connection string. Defina DATABASE_URL ou ConnectionStrings:Default.");
+    builder.Configuration.GetConnectionString("Default")
+    ?? throw new InvalidOperationException("ConnectionStrings:Default não está configurada.");
 
 builder.Services.AddDbContext<TicketingDbContext>(options =>
 {
