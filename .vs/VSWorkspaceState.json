@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DSIN.Business",
+    "\\DSIN.Business\\Models",
+    "\\DSIN.Data",
+    "\\DSIN.Data\\Contexts",
+    "\\DSIN.Data\\Dependencies",
+    "\\DSIN.Data\\Migrations"
+  ],
+  "SelectedNode": "\\DSIN.Business\\Models\\TicketBook.cs",
+  "PreviewInSolutionExplorer": false
+}

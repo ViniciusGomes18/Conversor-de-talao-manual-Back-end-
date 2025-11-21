@@ -1,0 +1,24 @@
+
+DSIN patch aplicado:
+
+1) DSIN.Data/Contexts/TicketingDbContext.cs
+   - Tabelas pluralizadas (Agents, Drivers, Vehicles, TicketBooks)
+   - Charset/Collation global: utf8mb4 / utf8mb4_unicode_ci
+   - GUIDs com ValueGeneratedNever()
+   - Índices: Email (unique), CPF, Plate, OccurredAt, AgentId
+   - FKs com DeleteBehavior.Restrict
+
+2) Program.cs
+   - Registro robusto do DbContext com UseMySql e EnableRetryOnFailure
+   - HealthChecks mapeado em /health
+
+3) appsettings.json
+   - ConnectionStrings:Default definido para MySQL local (ajuste se necessário)
+
+Como gerar e aplicar migrations:
+  dotnet tool update --global dotnet-ef
+  dotnet ef migrations add CreateAllGuidManual
+  dotnet ef database update
+
+MySQL recomendado (local):
+  CREATE DATABASE ticketdb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;

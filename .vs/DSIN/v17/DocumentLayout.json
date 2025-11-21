@@ -1,0 +1,707 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fante\\Desktop\\DSIN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\models\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\models\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fante\\Desktop\\DSIN\\Migrations\\20251121015756_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251121015756_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.data\\contexts\\ticketingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.data\\contexts\\ticketingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.data\\repositories\\agentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.data\\repositories\\agentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\models\\ticketbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\models\\ticketbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.data\\repositories\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.data\\repositories\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.data\\repositories\\driverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.data\\repositories\\driverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.data\\repositories\\ticketbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.data\\repositories\\ticketbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\services\\agentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.data\\external\\openaiocrclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.data\\external\\openaiocrclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.data\\external\\ocrprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.data\\external\\ocrprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\services\\ticketbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\services\\ticketbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\interfaces\\iservices\\iticketbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\interfaces\\iservices\\iticketbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\interfaces\\iservices\\iocrclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\interfaces\\iservices\\iocrclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\interfaces\\iservices\\iagentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\interfaces\\iservices\\iagentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\interfaces\\irepositories\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\interfaces\\irepositories\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\interfaces\\irepositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\interfaces\\irepositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\interfaces\\irepositories\\iticketbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\interfaces\\irepositories\\iticketbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\interfaces\\irepositories\\idriverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\interfaces\\irepositories\\idriverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\interfaces\\irepositories\\iagentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\interfaces\\irepositories\\iagentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\dtos\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\dtos\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\dtos\\ocrdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\dtos\\ocrdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\dtos\\ticketbook\\ticketbooksummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\dtos\\ticketbook\\ticketbooksummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\dtos\\ticketbook\\ticketbookresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\dtos\\ticketbook\\ticketbookresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.business\\dtos\\ticketbook\\createticketbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.business\\dtos\\ticketbook\\createticketbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.api\\controllers\\ticketbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.api\\controllers\\ticketbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.api\\controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.api\\controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|c:\\users\\fante\\desktop\\dsin\\dsin.api\\contracts\\ocrcontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C0DCBC-1EA0-4E4B-B034-49058C53435B}|DSIN.csproj|solutionrelative:dsin.api\\contracts\\ocrcontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Api\\Controllers\\OcrController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DSIN.Api\\Controllers\\OcrController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Messaging\\OcrResultConsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DSIN.Data\\Messaging\\OcrResultConsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Messaging\\KafkaProducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DSIN.Data\\Messaging\\KafkaProducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Messaging\\Messages\\OcrMessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DSIN.Data\\Messaging\\Messages\\OcrMessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\DTOs\\OcrUploadDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DSIN.Business\\DTOs\\OcrUploadDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20251121015756_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\Migrations\\20251121015756_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251121015756_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\Migrations\\20251121015756_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20251121015756_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T01:57:56.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DSIN.csproj.Backup.tmp",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "DSIN.csproj.Backup.tmp",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.csproj.Backup.tmp",
+              "RelativeToolTip": "DSIN.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-21T01:49:39.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:26:08.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TicketBook.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Models\\TicketBook.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\Models\\TicketBook.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Models\\TicketBook.cs",
+              "RelativeToolTip": "DSIN.Business\\Models\\TicketBook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T21:32:04.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TicketingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Contexts\\TicketingDbContext.cs",
+              "RelativeDocumentMoniker": "DSIN.Data\\Contexts\\TicketingDbContext.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Contexts\\TicketingDbContext.cs",
+              "RelativeToolTip": "DSIN.Data\\Contexts\\TicketingDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:23:41.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VehicleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Repositories\\VehicleRepository.cs",
+              "RelativeDocumentMoniker": "DSIN.Data\\Repositories\\VehicleRepository.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Repositories\\VehicleRepository.cs",
+              "RelativeToolTip": "DSIN.Data\\Repositories\\VehicleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T01:24:39.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AgentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Repositories\\AgentRepository.cs",
+              "RelativeDocumentMoniker": "DSIN.Data\\Repositories\\AgentRepository.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Repositories\\AgentRepository.cs",
+              "RelativeToolTip": "DSIN.Data\\Repositories\\AgentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:32:20.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "DSIN.Data\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "DSIN.Data\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T01:24:29.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-19T23:33:58.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "DSIN.Business\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:17:05.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Agent.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Models\\Agent.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\Models\\Agent.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Models\\Agent.cs",
+              "RelativeToolTip": "DSIN.Business\\Models\\Agent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:15:52.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DriverRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Repositories\\DriverRepository.cs",
+              "RelativeDocumentMoniker": "DSIN.Data\\Repositories\\DriverRepository.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Repositories\\DriverRepository.cs",
+              "RelativeToolTip": "DSIN.Data\\Repositories\\DriverRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T01:24:02.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TicketBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Repositories\\TicketBookRepository.cs",
+              "RelativeDocumentMoniker": "DSIN.Data\\Repositories\\TicketBookRepository.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Repositories\\TicketBookRepository.cs",
+              "RelativeToolTip": "DSIN.Data\\Repositories\\TicketBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T01:24:17.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AgentService.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Services\\AgentService.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\Services\\AgentService.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Services\\AgentService.cs",
+              "RelativeToolTip": "DSIN.Business\\Services\\AgentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:38:28.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DSIN.csproj",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.csproj",
+              "RelativeDocumentMoniker": "DSIN.csproj",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.csproj",
+              "RelativeToolTip": "DSIN.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-26T20:10:42.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OpenAIOcrClient.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\External\\OpenAIOcrClient.cs",
+              "RelativeDocumentMoniker": "DSIN.Data\\External\\OpenAIOcrClient.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\External\\OpenAIOcrClient.cs",
+              "RelativeToolTip": "DSIN.Data\\External\\OpenAIOcrClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T01:23:38.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OcrPrompt.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\External\\OcrPrompt.cs",
+              "RelativeDocumentMoniker": "DSIN.Data\\External\\OcrPrompt.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\External\\OcrPrompt.cs",
+              "RelativeToolTip": "DSIN.Data\\External\\OcrPrompt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T01:23:33.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IAgentService.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Interfaces\\IServices\\IAgentService.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\Interfaces\\IServices\\IAgentService.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Interfaces\\IServices\\IAgentService.cs",
+              "RelativeToolTip": "DSIN.Business\\Interfaces\\IServices\\IAgentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:18:25.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IOcrClient.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Interfaces\\IServices\\IOcrClient.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\Interfaces\\IServices\\IOcrClient.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Interfaces\\IServices\\IOcrClient.cs",
+              "RelativeToolTip": "DSIN.Business\\Interfaces\\IServices\\IOcrClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T20:06:41.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ITicketBookService.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Interfaces\\IServices\\ITicketBookService.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\Interfaces\\IServices\\ITicketBookService.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Interfaces\\IServices\\ITicketBookService.cs",
+              "RelativeToolTip": "DSIN.Business\\Interfaces\\IServices\\ITicketBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:56:49.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IVehicleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Interfaces\\IRepositories\\IVehicleRepository.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\Interfaces\\IRepositories\\IVehicleRepository.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Interfaces\\IRepositories\\IVehicleRepository.cs",
+              "RelativeToolTip": "DSIN.Business\\Interfaces\\IRepositories\\IVehicleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T21:33:39.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Models\\Driver.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\Models\\Driver.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Models\\Driver.cs",
+              "RelativeToolTip": "DSIN.Business\\Models\\Driver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T21:31:45.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\Models\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Models\\Vehicle.cs",
+              "RelativeToolTip": "DSIN.Business\\Models\\Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T21:31:32.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Interfaces\\IRepositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\Interfaces\\IRepositories\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Interfaces\\IRepositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "DSIN.Business\\Interfaces\\IRepositories\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:17:59.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TicketBookService.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Services\\TicketBookService.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\Services\\TicketBookService.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Services\\TicketBookService.cs",
+              "RelativeToolTip": "DSIN.Business\\Services\\TicketBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:57:09.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ITicketBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Interfaces\\IRepositories\\ITicketBookRepository.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\Interfaces\\IRepositories\\ITicketBookRepository.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Interfaces\\IRepositories\\ITicketBookRepository.cs",
+              "RelativeToolTip": "DSIN.Business\\Interfaces\\IRepositories\\ITicketBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T21:35:17.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IDriverRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Interfaces\\IRepositories\\IDriverRepository.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\Interfaces\\IRepositories\\IDriverRepository.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Interfaces\\IRepositories\\IDriverRepository.cs",
+              "RelativeToolTip": "DSIN.Business\\Interfaces\\IRepositories\\IDriverRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T21:34:47.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IAgentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Interfaces\\IRepositories\\IAgentRepository.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\Interfaces\\IRepositories\\IAgentRepository.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\Interfaces\\IRepositories\\IAgentRepository.cs",
+              "RelativeToolTip": "DSIN.Business\\Interfaces\\IRepositories\\IAgentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:17:31.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\DTOs\\PagedResult.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\DTOs\\PagedResult.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\DTOs\\PagedResult.cs",
+              "RelativeToolTip": "DSIN.Business\\DTOs\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T20:00:44.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OcrDtos.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\DTOs\\OcrDtos.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\DTOs\\OcrDtos.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\DTOs\\OcrDtos.cs",
+              "RelativeToolTip": "DSIN.Business\\DTOs\\OcrDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T20:15:05.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TicketBookSummaryDto.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\DTOs\\TicketBook\\TicketBookSummaryDto.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\DTOs\\TicketBook\\TicketBookSummaryDto.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\DTOs\\TicketBook\\TicketBookSummaryDto.cs",
+              "RelativeToolTip": "DSIN.Business\\DTOs\\TicketBook\\TicketBookSummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T20:00:36.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TicketBookResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\DTOs\\TicketBook\\TicketBookResponseDto.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\DTOs\\TicketBook\\TicketBookResponseDto.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\DTOs\\TicketBook\\TicketBookResponseDto.cs",
+              "RelativeToolTip": "DSIN.Business\\DTOs\\TicketBook\\TicketBookResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T20:00:20.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CreateTicketBookDto.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\DTOs\\TicketBook\\CreateTicketBookDto.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\DTOs\\TicketBook\\CreateTicketBookDto.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\DTOs\\TicketBook\\CreateTicketBookDto.cs",
+              "RelativeToolTip": "DSIN.Business\\DTOs\\TicketBook\\CreateTicketBookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T20:00:14.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TicketBookController.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Api\\Controllers\\TicketBookController.cs",
+              "RelativeDocumentMoniker": "DSIN.Api\\Controllers\\TicketBookController.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Api\\Controllers\\TicketBookController.cs",
+              "RelativeToolTip": "DSIN.Api\\Controllers\\TicketBookController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T01:20:26.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AgentController.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Api\\Controllers\\AgentController.cs",
+              "RelativeDocumentMoniker": "DSIN.Api\\Controllers\\AgentController.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Api\\Controllers\\AgentController.cs",
+              "RelativeToolTip": "DSIN.Api\\Controllers\\AgentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T01:20:17.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "OcrContracts.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Api\\Contracts\\OcrContracts.cs",
+              "RelativeDocumentMoniker": "DSIN.Api\\Contracts\\OcrContracts.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Api\\Contracts\\OcrContracts.cs",
+              "RelativeToolTip": "DSIN.Api\\Contracts\\OcrContracts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T01:20:14.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "OcrResultConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Messaging\\OcrResultConsumer.cs",
+              "RelativeDocumentMoniker": "DSIN.Data\\Messaging\\OcrResultConsumer.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Messaging\\OcrResultConsumer.cs",
+              "RelativeToolTip": "DSIN.Data\\Messaging\\OcrResultConsumer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T21:43:37.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "OcrController.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Api\\Controllers\\OcrController.cs",
+              "RelativeDocumentMoniker": "DSIN.Api\\Controllers\\OcrController.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Api\\Controllers\\OcrController.cs",
+              "RelativeToolTip": "DSIN.Api\\Controllers\\OcrController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T21:46:56.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "KafkaProducer.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Messaging\\KafkaProducer.cs",
+              "RelativeDocumentMoniker": "DSIN.Data\\Messaging\\KafkaProducer.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Messaging\\KafkaProducer.cs",
+              "RelativeToolTip": "DSIN.Data\\Messaging\\KafkaProducer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T21:43:00.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "OcrMessages.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Messaging\\Messages\\OcrMessages.cs",
+              "RelativeDocumentMoniker": "DSIN.Data\\Messaging\\Messages\\OcrMessages.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Data\\Messaging\\Messages\\OcrMessages.cs",
+              "RelativeToolTip": "DSIN.Data\\Messaging\\Messages\\OcrMessages.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T21:41:07.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "OcrUploadDto.cs",
+              "DocumentMoniker": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\DTOs\\OcrUploadDto.cs",
+              "RelativeDocumentMoniker": "DSIN.Business\\DTOs\\OcrUploadDto.cs",
+              "ToolTip": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.Business\\DTOs\\OcrUploadDto.cs",
+              "RelativeToolTip": "DSIN.Business\\DTOs\\OcrUploadDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T21:36:13.996Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
