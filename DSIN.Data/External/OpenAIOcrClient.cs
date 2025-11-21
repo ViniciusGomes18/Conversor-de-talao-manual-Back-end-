@@ -1,4 +1,4 @@
-﻿using System.Text;
+using System.Text;
 using System.Text.Json;
 using DSIN.Business.DTOs;
 using DSIN.Business.Interfaces.IServices;
@@ -26,13 +26,16 @@ namespace DSIN.Data.External
             if (string.IsNullOrWhiteSpace(request.ImageBase64))
                 throw new ArgumentException("ImageBase64 obrigatório.", nameof(request.ImageBase64));
 
-            var apiKey = _config["OpenAI:ApiKey"] ?? throw new InvalidOperationException("OpenAI:ApiKey não configurado.");
+            var apiKey = _config["OpenAI:ApiKey"]
+                         ?? throw new InvalidOperationException("OpenAI:ApiKey não configurado.");
+
             var model = _config["OpenAI:Model"] ?? "gpt-4o-mini";
+
+            var endpoint = _config["OpenAI:BaseUrl"]
+                           ?? "https://api.openai.com/v1/chat/completions";
 
             _http.DefaultRequestHeaders.Authorization =
                 new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", apiKey);
-
-            var systemPrompt = OcrPrompt.Enhanced;
 
             var payload = new
             {
@@ -40,7 +43,7 @@ namespace DSIN.Data.External
                 response_format = new { type = "json_object" },
                 messages = new object[]
                 {
-                    new { role = "system", content = systemPrompt },
+                    new { role = "system", content = OcrPrompt.Enhanced },
                     new
                     {
                         role = "user",
@@ -60,13 +63,18 @@ namespace DSIN.Data.External
                 }
             };
 
-            using var content = new StringContent(JsonSerializer.Serialize(payload), Encoding.UTF8, "application/json");
-            using var resp = await _http.PostAsync("chat/completions", content, ct);
+            using var content = new StringContent(
+                JsonSerializer.Serialize(payload),
+                Encoding.UTF8,
+                "application/json"
+            );
+
+            using var resp = await _http.PostAsync(endpoint, content, ct);
 
             if (!resp.IsSuccessStatusCode)
             {
-                var errBody = await resp.Content.ReadAsStringAsync(ct);
-                throw new InvalidOperationException($"OpenAI HTTP {(int)resp.StatusCode}: {errBody}");
+                var err = await resp.Content.ReadAsStringAsync(ct);
+                throw new InvalidOperationException($"OpenAI HTTP {(int)resp.StatusCode}: {err}");
             }
 
             var raw = await resp.Content.ReadAsStringAsync(ct);
@@ -79,7 +87,7 @@ namespace DSIN.Data.External
                 .GetString();
 
             if (string.IsNullOrWhiteSpace(jsonFromAi))
-                throw new InvalidOperationException("Resposta vazia do OpenAI.");
+                throw new InvalidOperationException("Resposta vazia da OpenAI.");
 
             var parsed = JsonSerializer.Deserialize<OcrExternalResultDto>(jsonFromAi, JsonOpts)
                          ?? throw new InvalidOperationException("JSON inválido retornado pelo OpenAI.");
