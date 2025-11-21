@@ -1,8 +1,14 @@
 using System;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using DSIN.Business.Models;
 using DSIN.Data.Contexts;
+
+// DI de domínio/infrastructure
+using DSIN.Business.Interfaces.IRepositories;
+using DSIN.Business.Interfaces.IServices;
+using DSIN.Business.Services;
+using DSIN.Data.Repositories;
+using DSIN.Data.External;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,59 +18,44 @@ builder.Configuration
     .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true)
     .AddEnvironmentVariables();
 
-// ---------- Services ----------
+// ---------- Services (MVC / Controllers) ----------
 builder.Services.AddControllers();
 
-// String de conexão: primeiro DATABASE_URL (Render), depois ConnectionStrings:Default
-var cs = builder.Configuration.GetConnectionString("Default")
-    ?? throw new Exception("Connection string não encontrada");
+// ---------- Banco de Dados ----------
+var cs =
+    builder.Configuration["DATABASE_URL"] ??
+    builder.Configuration.GetConnectionString("Default") ??
+    throw new InvalidOperationException("Não há connection string. Defina DATABASE_URL ou ConnectionStrings:Default.");
 
 builder.Services.AddDbContext<TicketingDbContext>(options =>
-    options.UseNpgsql(cs)
-);
+{
+    options.UseNpgsql(cs);
+});
 
-// DbContext apontando para o assembly de migrations DSIN
-builder.Services.AddDbContext<TicketingDbContext>(options =>
-    options.UseNpgsql(
-        cs,
-        b => b.MigrationsAssembly("DSIN")
-    )
-);
+// ---------- Repositórios ----------
+builder.Services.AddScoped<IAgentRepository, AgentRepository>();
+builder.Services.AddScoped<IDriverRepository, DriverRepository>();
+builder.Services.AddScoped<IVehicleRepository, VehicleRepository>();
+builder.Services.AddScoped<ITicketBookRepository, TicketBookRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+// ---------- Serviços de Domínio / Aplicação ----------
+builder.Services.AddScoped<IAgentService, AgentService>();
+builder.Services.AddScoped<ITicketBookService, TicketBookService>();
+
+// Cliente HTTP para IA (OpenAI OCR)
+builder.Services.AddHttpClient<IOcrClient, OpenAiOcrClient>();
+
+// ---------- Swagger ----------
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// ---------- Migrations + Seed de usuário de teste ----------
-using (var scope = app.Services.CreateScope())
+// ---------- Health Check simples ----------
+app.MapGet("/healthz", async (TicketingDbContext db, CancellationToken ct) =>
 {
-    var db = scope.ServiceProvider.GetRequiredService<TicketingDbContext>();
-
-    // Cria o banco / aplica todas as migrations pendentes
-    db.Database.Migrate();
-
-    // Seed: cria 1 agente de teste se ainda não existir
-    if (!db.Agents.Any())
-    {
-        var hash = BCrypt.Net.BCrypt.HashPassword("123456");
-
-        var seedAgent = new Agent(
-            Guid.NewGuid(),
-            "Agente Teste",
-            "agente@dsin.com",
-            hash
-        );
-
-        db.Agents.Add(seedAgent);
-        db.SaveChanges();
-    }
-}
-
-// ---------- Endpoint de healthcheck ----------
-app.MapGet("/healthz", async (TicketingDbContext db) =>
-{
-    var canConnect = await db.Database.CanConnectAsync();
+    var canConnect = await db.Database.CanConnectAsync(ct);
     return canConnect
         ? Results.Ok("OK")
         : Results.StatusCode(503);
@@ -76,6 +67,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// (se quiser forçar HTTPS localmente; no Render não faz diferença)
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
 
 app.MapControllers();
 
