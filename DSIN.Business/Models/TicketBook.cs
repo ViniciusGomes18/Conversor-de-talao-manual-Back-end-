@@ -18,6 +18,7 @@ public sealed class TicketBook
     public Agent? Agent { get; private set; }
     public Vehicle? Vehicle { get; private set; }
     public Driver? Driver { get; private set; }
+    public string? TicketImageBase64 { get; private set; }
 
     private TicketBook() { }
 
@@ -26,9 +27,11 @@ public sealed class TicketBook
         string plateSnapshot, string vehicleModelSnapshot, string vehicleColorSnapshot,
         string? driverNameSnapshot, string? driverCpfSnapshot,
         string violationCode, string violationDescription,
-        DateTimeOffset occurredAt, string? location)
+        DateTimeOffset occurredAt, string? location,
+        string? ticketImageBase64)
     {
-        Id = id; AgentId = agentId;
+        Id = id;
+        AgentId = agentId;
         VehicleId = vehicleId;
         DriverId = driverId;
         PlateSnapshot = plateSnapshot;
@@ -40,5 +43,6 @@ public sealed class TicketBook
         ViolationDescription = violationDescription;
         OccurredAt = occurredAt;
         Location = location;
+        TicketImageBase64 = ticketImageBase64;
     }
 }
