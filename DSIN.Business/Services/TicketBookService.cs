@@ -103,7 +103,7 @@ public sealed class TicketBookService : ITicketBookService
             violationCode: ocr.ViolationCode,
             violationDescription: ocr.ViolationDescription,
             occurredAt: ocr.OccurredAt,
-            location: ocr.Location
+            location: ocr.Location,
             ticketImageBase64: imageBase64
         );
 
