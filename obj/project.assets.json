@@ -3313,23 +3313,39 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
+    "C:\\Users\\Windows 11\\.nuget\\packages\\": {},
+=======
     "C:\\Users\\fante\\.nuget\\packages\\": {},
+>>>>>>> ace0807f5233eabb80d93694e2a95591bd775ee4
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\Windows 11\\Desktop\\Conversor-de-talao-manual-Back-end--main\\DSIN.csproj",
+      "projectName": "DSIN",
+      "projectPath": "C:\\Users\\Windows 11\\Desktop\\Conversor-de-talao-manual-Back-end--main\\DSIN.csproj",
+      "packagesPath": "C:\\Users\\Windows 11\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Windows 11\\Desktop\\Conversor-de-talao-manual-Back-end--main\\obj\\",
+=======
       "projectUniqueName": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.csproj",
       "projectName": "DSIN",
       "projectPath": "C:\\Users\\fante\\Desktop\\DSIN\\DSIN.csproj",
       "packagesPath": "C:\\Users\\fante\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\fante\\Desktop\\DSIN\\obj\\",
+>>>>>>> ace0807f5233eabb80d93694e2a95591bd775ee4
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
+        "C:\\Users\\Windows 11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
         "C:\\Users\\fante\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> ace0807f5233eabb80d93694e2a95591bd775ee4
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3356,7 +3372,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
+<<<<<<< HEAD
+      "SdkAnalysisLevel": "9.0.100"
+=======
       "SdkAnalysisLevel": "9.0.300"
+>>>>>>> ace0807f5233eabb80d93694e2a95591bd775ee4
     },
     "frameworks": {
       "net8.0": {
@@ -3426,7 +3446,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+>>>>>>> ace0807f5233eabb80d93694e2a95591bd775ee4
       }
     }
   }

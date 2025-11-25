@@ -44,5 +44,9 @@ public sealed class TicketBook
         OccurredAt = occurredAt;
         Location = location;
         TicketImageBase64 = ticketImageBase64;
+<<<<<<< HEAD
+
+=======
+>>>>>>> ace0807f5233eabb80d93694e2a95591bd775ee4
     }
 }

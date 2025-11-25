@@ -3,6 +3,7 @@ using System;
 using DSIN.Data.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace DSIN.Migrations
 {
     [DbContext(typeof(TicketingDbContext))]
-    partial class TicketingDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251125232347_AddTicketImageBase64ToTicketBooks")]
+    partial class AddTicketImageBase64ToTicketBooks
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -103,12 +106,9 @@ namespace DSIN.Migrations
                         .HasMaxLength(10)
                         .HasColumnType("character varying(10)");
 
-<<<<<<< HEAD
                     b.Property<string>("TicketImageBase64")
                         .HasColumnType("text");
 
-=======
->>>>>>> ace0807f5233eabb80d93694e2a95591bd775ee4
                     b.Property<string>("VehicleColorSnapshot")
                         .IsRequired()
                         .HasMaxLength(50)

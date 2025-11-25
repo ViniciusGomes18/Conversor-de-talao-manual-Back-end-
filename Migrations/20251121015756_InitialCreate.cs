@@ -68,7 +68,13 @@ namespace DSIN.Migrations
                     ViolationCode = table.Column<string>(type: "character varying(20)", maxLength: 20, nullable: false),
                     ViolationDescription = table.Column<string>(type: "character varying(500)", maxLength: 500, nullable: false),
                     OccurredAt = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+<<<<<<< HEAD
+                    Location = table.Column<string>(type: "character varying(200)", maxLength: 200, nullable: true),
+                    TicketImageBase64 = table.Column<string>(type: "character varying(200)", maxLength: 200, nullable: true)
+ 
+=======
                     Location = table.Column<string>(type: "character varying(200)", maxLength: 200, nullable: true)
+>>>>>>> ace0807f5233eabb80d93694e2a95591bd775ee4
                 },
                 constraints: table =>
                 {

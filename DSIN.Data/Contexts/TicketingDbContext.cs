@@ -92,6 +92,10 @@ namespace DSIN.Data.Contexts
                 e.Property(x => x.DriverCpfSnapshot).HasMaxLength(11);
                 e.Property(x => x.ViolationCode).HasMaxLength(20).IsRequired();
                 e.Property(x => x.ViolationDescription).HasMaxLength(500).IsRequired();
+<<<<<<< HEAD
+                e.Property(x => x.TicketImageBase64).HasColumnType("text");
+=======
+>>>>>>> ace0807f5233eabb80d93694e2a95591bd775ee4
                 e.Property(x => x.Location).HasMaxLength(200);
                 // deixa o provider mapear o tipo de data/hora
                 e.Property(x => x.OccurredAt).IsRequired();
