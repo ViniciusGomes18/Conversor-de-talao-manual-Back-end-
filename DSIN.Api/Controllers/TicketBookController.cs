@@ -25,4 +25,14 @@ public sealed class TicketBookController : ControllerBase
         var result = await _service.ListByAgentAsync(agentId, skip, take, ct);
         return Ok(result);
     }
+    
+    [HttpGet("{id:guid}")]
+    public async Task<IActionResult> GetById([FromRoute] Guid id, CancellationToken ct)
+    {
+        var ticket = await _service.GetByIdAsync(id, ct);
+        if (ticket is null)
+            return NotFound();
+    
+        return Ok(ticket);
+    }
 }
