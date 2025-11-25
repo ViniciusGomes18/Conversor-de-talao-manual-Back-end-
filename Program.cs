@@ -62,11 +62,14 @@ app.MapGet("/healthz", async (TicketingDbContext db, CancellationToken ct) =>
 });
 
 // ---------- Pipeline HTTP ----------
-if (app.Environment.IsDevelopment())
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "DSIN API v1");
+    c.RoutePrefix = "swagger";
+});
+
+app.MapGet("/", () => Results.Redirect("/swagger"));
 
 // (se quiser forçar HTTPS localmente; no Render não faz diferença)
 app.UseHttpsRedirection();
