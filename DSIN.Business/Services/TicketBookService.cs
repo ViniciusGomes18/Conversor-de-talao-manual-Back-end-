@@ -164,4 +164,32 @@ public sealed class TicketBookService : ITicketBookService
             Items = mapped
         };
     }
+
+    public async Task<TicketBookDetailsDto?> GetByIdAsync(Guid id, CancellationToken ct)
+    {
+        var ticket = await _tickets.GetByIdAsync(id, ct);
+        if (ticket is null)
+            return null;
+    
+        return new TicketBookDetailsDto
+        {
+            Id = ticket.Id,
+            AgentId = ticket.AgentId,
+            VehicleId = ticket.VehicleId,
+            DriverId = ticket.DriverId,
+    
+            Plate = ticket.PlateSnapshot,
+            VehicleModel = ticket.VehicleModelSnapshot,
+            VehicleColor = ticket.VehicleColorSnapshot,
+            DriverName = ticket.DriverNameSnapshot,
+            DriverCpf = ticket.DriverCpfSnapshot,
+    
+            ViolationCode = ticket.ViolationCode,
+            ViolationDescription = ticket.ViolationDescription,
+            OccurredAt = ticket.OccurredAt,
+            Location = ticket.Location,
+    
+            TicketImageBase64 = ticket.TicketImageBase64 // se ainda não tiver, te passo como adicionar
+        };
+    }
 }
