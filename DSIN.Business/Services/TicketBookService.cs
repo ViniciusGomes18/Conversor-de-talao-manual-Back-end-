@@ -104,6 +104,7 @@ public sealed class TicketBookService : ITicketBookService
             violationDescription: ocr.ViolationDescription,
             occurredAt: ocr.OccurredAt,
             location: ocr.Location
+            ticketImageBase64: imageBase64
         );
 
         await _tickets.AddAsync(ticket, ct);
